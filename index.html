@@ -1,0 +1,140 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> FORM </title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+   #formsec 
+   {
+	 margin-top:50px; 
+   }
+   form 
+   { 
+	 width:500px; 
+	 height:650px;; 
+	 border:2px solid black;
+	 margin:auto;
+	 padding-top:50px;
+	 padding-left:50px;
+   }
+   div 
+   {
+      padding-top:30px;
+   }
+   button
+   { 
+	 background-color:gold; 
+	 float:center; 
+	 width:400px;
+	 height:30px;
+   }  
+   b 
+   {
+	 font-size:25px;
+	 padding-left:80px;
+   } 
+   span 
+   {
+	 padding-left:170px; 
+   }
+   .user
+   { 
+   	 position:relative;
+   }		
+   .user i
+   {
+     position:absolute;
+     top:35px;
+	 left:18px;
+   }
+   .user input
+   {
+     padding-left:45px;
+	 height:25px;
+	 width:350px;
+	 font-size:20px;
+   }
+   .user1
+   {
+     display:flex;
+   }
+   .user2
+   {
+     position:relative;
+	 padding-top:0px;
+   }
+   .user2 i
+   {
+     position:absolute;
+	 top:8px;
+     left:20px;
+   }
+   .user2 input
+   {
+     padding-left:45px;
+	 height:25px;
+	 width:140px;
+	 font-size:20px;
+   }
+   select 
+   {
+	 width:400px; 
+	 height:30px;
+     padding-left:20px;
+   }	   
+   </style>  
+  </head>
+  <body>
+  <!--- FORM --->
+  <section id="formsec">
+   <form>
+    <b> Responsive Registration <br> <span> Form  <span> </b> 
+     <div class="user">
+      <i class="fa fa-envelope"> </i> 
+      <input type="email" placeholder="Email"> 
+	 </div> 
+	 <div class="user">
+      <i class="fa fa-lock"> </i> 
+      <input type="password" placeholder="Password"> 
+	 </div>
+	 <div class="user">
+      <i class="fa fa-lock"> </i> 
+      <input type="password" placeholder="Re-type Password"> 
+	 </div> 
+	 <div class="user1">
+	  <div class="user2">
+       <i class="fa fa-user"> </i> 
+       <input type="text" placeholder="First Name">
+     </div> &nbsp; &nbsp; &nbsp;
+     <div class="user2">  		
+      <i class="fa fa-user"> </i> 
+      <input type="text" placeholder="Last Name">
+     </div> 
+	</div>  
+    <div>
+      <label for="sex">
+       <input type="radio" name="sex"> Male
+       <input type="radio" name="sex"> Female 
+    </div> 
+    <div>
+      <select>
+        <option> Select a country </option>
+        <option> India </option>
+        <option> America </option>
+	    <option> London </option>
+      </select>
+    </div> 
+    <div>
+     <input type="checkbox"> I agree with terms and conditions <br><br>
+     <input type="checkbox"> I want to receive the newsletter  <br><br> 
+	</div> 
+    <div> 
+     <button>  Register </button>
+    </div>
+   </form>
+  </section>   
+ </body>
+</html> 
+   
